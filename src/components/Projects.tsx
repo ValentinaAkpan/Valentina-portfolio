@@ -1,4 +1,3 @@
-
 import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
@@ -13,9 +12,9 @@ const Projects = () => {
       sourceCodeText: "Source Code Unavailable"
     },
     {
-      title: "GEV Analysis",
-      description: "Statistical analysis tool for Generalized Extreme Value distributions with interactive visualizations",
-      tech: ["Python", "Streamlit", "Statistics", "Data Visualization"],
+      title: "GEV Analysis - Multi-Hazard Risk Dashboard",
+      description: "Interactive risk analysis dashboard for Generalized Extreme Value distributions featuring multi-hazard controls (Wind, Drought, Wildfire risks), county filtering, and dynamic risk visualizations with customizable minimum risk thresholds",
+      tech: ["Python", "Streamlit", "Statistics", "Data Visualization", "Risk Analysis"],
       status: "Live",
       liveUrl: "https://gevanalysis.streamlit.app/",
       githubUrl: null,
