@@ -13,16 +13,16 @@ const Hero = () => {
         <div className="animate-fade-in">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
             <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              Technical
+              Vincent
             </span>
             <br />
-            <span className="text-white">Professional</span>
+            <span className="text-white">Alvarez</span>
           </h1>
           
           <p className="text-xl sm:text-2xl text-gray-300 mb-8 leading-relaxed">
-            Technical Support Specialist & Data Analyst with expertise in 
+            Technical Support Specialist & Data Analyst
             <br className="hidden sm:block" />
-            network operations, system troubleshooting, and data-driven insights
+            Expert in network operations, system troubleshooting, and data-driven solutions
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
