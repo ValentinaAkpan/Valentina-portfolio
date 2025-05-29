@@ -21,6 +21,33 @@ const Projects = () => {
       sourceCodeText: "Source Code Unavailable"
     },
     {
+      title: "Bonneterre Consulting",
+      description: "Professional consulting website showcasing services and expertise",
+      tech: ["Web Development", "HTML", "CSS", "JavaScript"],
+      status: "Live",
+      liveUrl: "https://bonneterreconsulting.com/",
+      githubUrl: null,
+      sourceCodeText: "Source Code Unavailable"
+    },
+    {
+      title: "HRAI Email Campaign - Must-read for Members: Winning Ways",
+      description: "Professional email blast designed for HRAI member engagement and communication",
+      tech: ["Email Marketing", "HTML", "CSS", "Constant Contact"],
+      status: "Live",
+      liveUrl: "https://myemail.constantcontact.com/Must-read-for-Members--Winning-Ways.html?soid=1109470830699&aid=Y_bnCf-8rgs",
+      githubUrl: null,
+      sourceCodeText: "Email Template"
+    },
+    {
+      title: "HRAI Email Campaign - Don't Miss Out",
+      description: "Engaging email blast created for HRAI member outreach and important announcements",
+      tech: ["Email Marketing", "HTML", "CSS", "Constant Contact"],
+      status: "Live",
+      liveUrl: "https://myemail.constantcontact.com/-Don-t-miss-out-.html?soid=1109470830699&aid=Q6l8Lj9oRV4",
+      githubUrl: null,
+      sourceCodeText: "Email Template"
+    },
+    {
       title: "HRAI Member Survey Analysis",
       description: "Interactive data analysis dashboard for HRAI member survey insights and visualizations",
       tech: ["Python", "Streamlit", "Pandas", "Data Analysis"],
@@ -100,7 +127,7 @@ const Projects = () => {
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
-          <p className="text-gray-300 mt-4">Showcasing web development, data analysis tools, dashboards, and automation solutions</p>
+          <p className="text-gray-300 mt-4">Showcasing web development, data analysis tools, dashboards, email campaigns, and automation solutions</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
