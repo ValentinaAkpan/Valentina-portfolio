@@ -1,4 +1,19 @@
+import { useEffect, useState } from 'react';
+
 const Hero = () => {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // Calculate rotation and movement based on scroll
+  const robotRotation = scrollY * 0.2;
+  const robotBounce = Math.sin(scrollY * 0.01) * 10;
+  const eyeGlow = Math.abs(Math.sin(scrollY * 0.02)) * 100;
+
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background Animation */}
@@ -8,39 +23,90 @@ const Hero = () => {
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
       </div>
       
-      {/* Animated Robot - Made larger and more visible */}
-      <div className="absolute right-4 md:right-12 top-1/2 transform -translate-y-1/2 z-20">
-        <div className="relative animate-bounce">
-          {/* Robot Body */}
-          <div className="relative scale-150 md:scale-125">
+      {/* Scroll-Interactive Robot */}
+      <div 
+        className="absolute right-4 md:right-12 top-1/2 z-20 transition-all duration-300"
+        style={{
+          transform: `translateY(calc(-50% + ${robotBounce}px)) rotate(${robotRotation}deg)`,
+        }}
+      >
+        <div className="relative">
+          {/* Robot Body with scroll-based scaling */}
+          <div 
+            className="relative scale-150 md:scale-125 transition-transform duration-500"
+            style={{
+              transform: `scale(${1.2 + Math.sin(scrollY * 0.005) * 0.2})`,
+            }}
+          >
             {/* Head */}
-            <div className="w-20 h-20 bg-gradient-to-br from-gray-700 to-gray-800 rounded-xl mx-auto mb-3 relative animate-pulse shadow-2xl border border-gray-600">
-              {/* Eyes */}
-              <div className="absolute top-5 left-4 w-3 h-3 bg-blue-400 rounded-full animate-ping shadow-lg"></div>
-              <div className="absolute top-5 right-4 w-3 h-3 bg-blue-400 rounded-full animate-ping delay-500 shadow-lg"></div>
-              {/* Antenna */}
+            <div className="w-20 h-20 bg-gradient-to-br from-gray-700 to-gray-800 rounded-xl mx-auto mb-3 relative shadow-2xl border border-gray-600">
+              {/* Eyes with scroll-reactive glow */}
+              <div 
+                className="absolute top-5 left-4 w-3 h-3 bg-blue-400 rounded-full shadow-lg transition-all duration-300"
+                style={{
+                  boxShadow: `0 0 ${10 + eyeGlow}px rgba(59, 130, 246, 0.8)`,
+                  transform: `translateX(${Math.sin(scrollY * 0.01) * 2}px)`,
+                }}
+              ></div>
+              <div 
+                className="absolute top-5 right-4 w-3 h-3 bg-blue-400 rounded-full shadow-lg transition-all duration-300"
+                style={{
+                  boxShadow: `0 0 ${10 + eyeGlow}px rgba(59, 130, 246, 0.8)`,
+                  transform: `translateX(${Math.sin(scrollY * 0.01 + Math.PI) * 2}px)`,
+                }}
+              ></div>
+              {/* Antenna with scroll movement */}
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-1.5 h-6 bg-gray-600 rounded-full"></div>
-              <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-red-500 rounded-full animate-pulse shadow-lg"></div>
+              <div 
+                className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-red-500 rounded-full shadow-lg transition-all duration-300"
+                style={{
+                  transform: `translateX(-50%) scale(${1 + Math.sin(scrollY * 0.02) * 0.3})`,
+                  boxShadow: `0 0 ${5 + Math.abs(Math.sin(scrollY * 0.02)) * 15}px rgba(239, 68, 68, 0.6)`,
+                }}
+              ></div>
               {/* Mouth */}
               <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-6 h-2 bg-gray-600 rounded-full"></div>
             </div>
             
             {/* Body */}
             <div className="w-24 h-28 bg-gradient-to-br from-gray-600 to-gray-800 rounded-xl mx-auto relative shadow-2xl border border-gray-600">
-              {/* Chest Panel */}
+              {/* Chest Panel with scroll-reactive elements */}
               <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-16 h-10 bg-gray-700 rounded-lg border border-gray-500 shadow-inner">
-                <div className="w-3 h-3 bg-green-400 rounded-full mx-auto mt-2 animate-pulse shadow-lg"></div>
+                <div 
+                  className="w-3 h-3 bg-green-400 rounded-full mx-auto mt-2 shadow-lg transition-all duration-300"
+                  style={{
+                    boxShadow: `0 0 ${5 + Math.abs(Math.sin(scrollY * 0.03)) * 15}px rgba(34, 197, 94, 0.6)`,
+                  }}
+                ></div>
                 <div className="flex justify-center space-x-1 mt-2">
-                  <div className="w-1.5 h-1.5 bg-blue-400 rounded-full shadow-sm"></div>
-                  <div className="w-1.5 h-1.5 bg-blue-400 rounded-full shadow-sm"></div>
-                  <div className="w-1.5 h-1.5 bg-blue-400 rounded-full shadow-sm"></div>
+                  {[0, 1, 2].map((i) => (
+                    <div 
+                      key={i}
+                      className="w-1.5 h-1.5 bg-blue-400 rounded-full shadow-sm transition-all duration-300"
+                      style={{
+                        opacity: Math.abs(Math.sin(scrollY * 0.02 + i * Math.PI / 3)) * 0.5 + 0.5,
+                      }}
+                    ></div>
+                  ))}
                 </div>
               </div>
             </div>
             
-            {/* Arms */}
-            <div className="absolute top-20 -left-8 w-5 h-20 bg-gradient-to-b from-gray-600 to-gray-700 rounded-full animate-pulse transform origin-top rotate-12 shadow-lg border border-gray-600"></div>
-            <div className="absolute top-20 -right-8 w-5 h-20 bg-gradient-to-b from-gray-600 to-gray-700 rounded-full animate-pulse transform origin-top -rotate-12 delay-300 shadow-lg border border-gray-600"></div>
+            {/* Arms with scroll-based movement */}
+            <div 
+              className="absolute top-20 -left-8 w-5 h-20 bg-gradient-to-b from-gray-600 to-gray-700 rounded-full shadow-lg border border-gray-600 transition-all duration-500"
+              style={{
+                transform: `rotate(${12 + Math.sin(scrollY * 0.015) * 20}deg)`,
+                transformOrigin: 'top center',
+              }}
+            ></div>
+            <div 
+              className="absolute top-20 -right-8 w-5 h-20 bg-gradient-to-b from-gray-600 to-gray-700 rounded-full shadow-lg border border-gray-600 transition-all duration-500"
+              style={{
+                transform: `rotate(${-12 + Math.sin(scrollY * 0.015 + Math.PI) * 20}deg)`,
+                transformOrigin: 'top center',
+              }}
+            ></div>
             
             {/* Legs */}
             <div className="flex justify-center space-x-3 mt-3">
@@ -55,12 +121,28 @@ const Hero = () => {
             </div>
           </div>
           
-          {/* Floating Animation Effect */}
-          <div className="absolute inset-0 animate-spin opacity-30">
-            <div className="absolute -top-2 -left-2 w-3 h-3 bg-blue-400 rounded-full shadow-lg"></div>
-            <div className="absolute -top-2 -right-2 w-3 h-3 bg-purple-400 rounded-full shadow-lg"></div>
-            <div className="absolute -bottom-2 -left-2 w-3 h-3 bg-green-400 rounded-full shadow-lg"></div>
-            <div className="absolute -bottom-2 -right-2 w-3 h-3 bg-red-400 rounded-full shadow-lg"></div>
+          {/* Floating Animation Effect with scroll enhancement */}
+          <div 
+            className="absolute inset-0 opacity-30 transition-all duration-1000"
+            style={{
+              transform: `rotate(${scrollY * 0.5}deg)`,
+            }}
+          >
+            {[
+              { position: 'top-2 left-2', color: 'blue-400', delay: 0 },
+              { position: 'top-2 right-2', color: 'purple-400', delay: Math.PI / 2 },
+              { position: 'bottom-2 left-2', color: 'green-400', delay: Math.PI },
+              { position: 'bottom-2 right-2', color: 'red-400', delay: 3 * Math.PI / 2 },
+            ].map((particle, i) => (
+              <div 
+                key={i}
+                className={`absolute -${particle.position} w-3 h-3 bg-${particle.color} rounded-full shadow-lg transition-all duration-300`}
+                style={{
+                  transform: `scale(${1 + Math.sin(scrollY * 0.02 + particle.delay) * 0.5})`,
+                  opacity: Math.abs(Math.sin(scrollY * 0.015 + particle.delay)) * 0.8 + 0.2,
+                }}
+              ></div>
+            ))}
           </div>
         </div>
       </div>
