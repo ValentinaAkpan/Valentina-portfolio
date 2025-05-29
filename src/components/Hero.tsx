@@ -9,6 +9,61 @@ const Hero = () => {
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
       </div>
       
+      {/* Animated Robot */}
+      <div className="absolute right-8 top-1/2 transform -translate-y-1/2 hidden lg:block">
+        <div className="relative animate-bounce">
+          {/* Robot Body */}
+          <div className="relative">
+            {/* Head */}
+            <div className="w-16 h-16 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg mx-auto mb-2 relative animate-pulse">
+              {/* Eyes */}
+              <div className="absolute top-4 left-3 w-2 h-2 bg-blue-400 rounded-full animate-ping"></div>
+              <div className="absolute top-4 right-3 w-2 h-2 bg-blue-400 rounded-full animate-ping delay-500"></div>
+              {/* Antenna */}
+              <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-1 h-4 bg-gray-600"></div>
+              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
+            </div>
+            
+            {/* Body */}
+            <div className="w-20 h-24 bg-gradient-to-br from-gray-600 to-gray-800 rounded-lg mx-auto relative">
+              {/* Chest Panel */}
+              <div className="absolute top-3 left-1/2 transform -translate-x-1/2 w-12 h-8 bg-gray-700 rounded border border-gray-500">
+                <div className="w-2 h-2 bg-green-400 rounded-full mx-auto mt-1 animate-pulse"></div>
+                <div className="flex justify-center space-x-1 mt-1">
+                  <div className="w-1 h-1 bg-blue-400 rounded-full"></div>
+                  <div className="w-1 h-1 bg-blue-400 rounded-full"></div>
+                  <div className="w-1 h-1 bg-blue-400 rounded-full"></div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Arms */}
+            <div className="absolute top-16 -left-6 w-4 h-16 bg-gradient-to-b from-gray-600 to-gray-700 rounded-full animate-pulse transform origin-top rotate-12"></div>
+            <div className="absolute top-16 -right-6 w-4 h-16 bg-gradient-to-b from-gray-600 to-gray-700 rounded-full animate-pulse transform origin-top -rotate-12 delay-300"></div>
+            
+            {/* Legs */}
+            <div className="flex justify-center space-x-2 mt-2">
+              <div className="w-4 h-20 bg-gradient-to-b from-gray-600 to-gray-800 rounded-full"></div>
+              <div className="w-4 h-20 bg-gradient-to-b from-gray-600 to-gray-800 rounded-full"></div>
+            </div>
+            
+            {/* Feet */}
+            <div className="flex justify-center space-x-2 -mt-2">
+              <div className="w-6 h-3 bg-gray-700 rounded-full"></div>
+              <div className="w-6 h-3 bg-gray-700 rounded-full"></div>
+            </div>
+          </div>
+          
+          {/* Floating Animation Effect */}
+          <div className="absolute inset-0 animate-spin opacity-20">
+            <div className="absolute top-0 left-0 w-2 h-2 bg-blue-400 rounded-full"></div>
+            <div className="absolute top-0 right-0 w-2 h-2 bg-purple-400 rounded-full"></div>
+            <div className="absolute bottom-0 left-0 w-2 h-2 bg-green-400 rounded-full"></div>
+            <div className="absolute bottom-0 right-0 w-2 h-2 bg-red-400 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+      
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="animate-fade-in">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
