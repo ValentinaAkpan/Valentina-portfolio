@@ -36,9 +36,12 @@ const Experience = () => {
       location: "Remote",
       type: "Contract",
       responsibilities: [
-        "Analyzed operational data using Python, Pandas, and NumPy",
-        "Created predictive models and visualizations (Plotly, Matplotlib)",
-        "Built pipelines and integrated multiple data sources"
+        "Analyzed operational data using Python, Pandas, and NumPy to identify trends and performance metrics",
+        "Created predictive models and visualizations using Plotly and Matplotlib to support business decision-making",
+        "Built automated data pipelines to integrate multiple data sources and streamline reporting processes",
+        "Developed custom dashboards and reports for stakeholders to track key performance indicators",
+        "Collaborated with cross-functional teams to understand data requirements and deliver actionable insights",
+        "Implemented data quality checks and validation procedures to ensure accuracy and reliability of analysis"
       ]
     },
     {
@@ -64,7 +67,12 @@ const Experience = () => {
       location: "Remote",
       type: "Freelance",
       responsibilities: [
-        "Managed data systems, helped organize team workflow, and contributed to web projects"
+        "Managed comprehensive data systems and databases to support business operations and decision-making",
+        "Organized team workflows and project management processes to improve efficiency and collaboration",
+        "Contributed to web development projects using modern frameworks and technologies",
+        "Analyzed client data to provide insights and recommendations for business improvement",
+        "Created and maintained documentation for data processes and administrative procedures",
+        "Supported remote team coordination and communication across multiple time zones"
       ]
     },
     {
@@ -74,8 +82,12 @@ const Experience = () => {
       location: "Lagos",
       type: "Full-time",
       responsibilities: [
-        "Led engineers in field troubleshooting and alarm response",
-        "Oversaw network outage tracking, performance reviews, and ticket resolution"
+        "Led a team of network engineers in field troubleshooting and rapid alarm response across multiple sites",
+        "Oversaw comprehensive network outage tracking and performance review processes to minimize downtime",
+        "Managed ticket resolution workflows and prioritized critical network issues for optimal service delivery",
+        "Coordinated with multiple departments to ensure efficient resource allocation and technical support",
+        "Developed and implemented standard operating procedures for network maintenance and emergency response",
+        "Mentored junior engineers and conducted training sessions on network troubleshooting techniques"
       ]
     },
     {
@@ -85,8 +97,12 @@ const Experience = () => {
       location: "Lagos",
       type: "Full-time",
       responsibilities: [
-        "Monitored 2G/3G networks and handled fault systems",
-        "Fielded customer support and dispatched technical teams"
+        "Monitored 2G/3G network infrastructure and managed fault detection systems to ensure optimal network performance",
+        "Provided technical customer support and coordinated field service dispatch for network issues",
+        "Analyzed network performance metrics and generated reports for management and client stakeholders",
+        "Troubleshot complex network problems and implemented solutions to prevent recurring issues",
+        "Maintained network documentation and updated configuration management databases",
+        "Collaborated with vendors and third-party contractors to resolve hardware and software issues"
       ]
     },
     {
@@ -96,8 +112,12 @@ const Experience = () => {
       location: "Lagos",
       type: "Contract",
       responsibilities: [
-        "Provided end-user support and network issue resolution via chat, email, and phone",
-        "Maintained documentation and improved customer satisfaction"
+        "Provided comprehensive end-user technical support through multiple channels including chat, email, and phone",
+        "Resolved network connectivity issues and troubleshot hardware and software problems for clients",
+        "Maintained detailed documentation of support cases and developed knowledge base articles",
+        "Implemented customer satisfaction improvement initiatives that increased resolution rates",
+        "Trained new support staff on technical procedures and customer service best practices",
+        "Escalated complex technical issues to appropriate teams while maintaining client communication"
       ]
     }
   ];
