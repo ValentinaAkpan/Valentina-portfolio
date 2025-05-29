@@ -1,4 +1,3 @@
-
 const Experience = () => {
   const experiences = [
     {
@@ -22,7 +21,12 @@ const Experience = () => {
       location: "Remote",
       type: "Freelance",
       responsibilities: [
-        "Offering freelance support in technical troubleshooting and data analysis"
+        "Supported data infrastructure and reporting workflows aligned with UN-related program goals and compliance standards",
+        "Automated data collection, transformation, and reporting tasks using Python and spreadsheet-based tools to reduce manual workload",
+        "Conducted quality assurance checks on incoming datasets, ensuring accuracy, completeness, and consistency before analysis or distribution",
+        "Built custom scripts to streamline recurring administrative and data-processing tasks, improving efficiency and reducing errors",
+        "Assisted project teams with setting up digital tools and technical systems for collaboration, remote communication, and information tracking",
+        "Created internal documentation and training resources to support non-technical staff in using digital systems and handling data securely"
       ]
     },
     {
@@ -44,7 +48,13 @@ const Experience = () => {
       location: "Vancouver",
       type: "Full-time",
       responsibilities: [
-        "Supported events and meetings with planning and coordination"
+        "Provided comprehensive administrative support across teams, ensuring smooth daily operations and effective communication",
+        "Led efforts to automate repetitive office tasks using tools like Excel macros, Google Sheets scripts, and online forms, saving time and reducing manual errors",
+        "Streamlined scheduling, reporting, and document management processes by introducing digital workflows and shared systems",
+        "Coordinated internal meetings, event logistics, and external communications with a strong focus on detail and follow-through",
+        "Created and maintained organized digital filing systems, improving data accessibility and team productivity",
+        "Supported cross-functional collaboration by training colleagues on new tools and documenting updated procedures",
+        "Acted as a point of contact for internal operations, assisting with onboarding, supply tracking, and process improvements"
       ]
     },
     {
