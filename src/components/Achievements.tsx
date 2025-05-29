@@ -26,7 +26,7 @@ const Achievements = () => {
   ];
 
   return (
-    <section id="achievements" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-100">
+    <section id="achievements" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold mb-6">
@@ -35,7 +35,7 @@ const Achievements = () => {
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
-          <p className="text-gray-600 mt-4 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-300 mt-4 text-lg max-w-2xl mx-auto">
             Innovative solutions and impactful contributions across data analysis, 
             machine learning, and operational excellence
           </p>
@@ -45,17 +45,17 @@ const Achievements = () => {
           {achievements.map((achievement, index) => (
             <div
               key={index}
-              className="bg-white p-8 rounded-xl border border-gray-200 hover:border-blue-400 transition-all duration-300 transform hover:scale-105 group shadow-lg"
+              className="bg-gray-800/50 p-8 rounded-xl border border-gray-700 hover:border-blue-400 transition-all duration-300 transform hover:scale-105 group shadow-lg"
             >
               <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 p-3 bg-gray-100 rounded-lg group-hover:bg-gray-200 transition-colors duration-300">
+                <div className="flex-shrink-0 p-3 bg-gray-700/80 rounded-lg group-hover:bg-gray-600/80 transition-colors duration-300">
                   {achievement.icon}
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-blue-600 transition-colors duration-300">
+                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                     {achievement.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-gray-300 leading-relaxed">
                     {achievement.description}
                   </p>
                 </div>
