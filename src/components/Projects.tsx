@@ -40,11 +40,13 @@ const Projects = () => {
       sourceCodeText: "Source Code"
     },
     {
-      title: "Data Analysis Dashboard",
-      description: "Interactive dashboard for operational data visualization and insights",
-      tech: ["Python", "Pandas", "Plotly", "Streamlit"],
-      status: "Coming Soon",
-      sourceCodeText: "Source Code"
+      title: "Bucket Camera & LCS Performance Dashboard",
+      description: "Interactive dashboard analyzing BC3D bucket camera and Lens Cleaning System performance with filtering and visualization capabilities",
+      tech: ["Python", "Streamlit", "Pandas", "Plotly", "NumPy"],
+      status: "Live",
+      liveUrl: null,
+      githubUrl: null,
+      sourceCodeText: "Confidential"
     },
     {
       title: "Network Monitoring Tool",
