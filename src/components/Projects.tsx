@@ -40,9 +40,27 @@ const Projects = () => {
       sourceCodeText: "Source Code"
     },
     {
+      title: "English to French Translation Tool",
+      description: "Streamlit-based tool for quick English to French translations with formatting preservation",
+      tech: ["Python", "Streamlit", "Google Translate API"],
+      status: "Live",
+      liveUrl: "https://englishtofrenchtranslate.streamlit.app/",
+      githubUrl: null,
+      sourceCodeText: "Source Code Unavailable"
+    },
+    {
       title: "Bucket Camera & LCS Performance Dashboard",
       description: "Interactive dashboard analyzing BC3D bucket camera and Lens Cleaning System performance with filtering and visualization capabilities",
       tech: ["Python", "Streamlit", "Pandas", "Plotly", "NumPy"],
+      status: "Live",
+      liveUrl: null,
+      githubUrl: null,
+      sourceCodeText: "Confidential"
+    },
+    {
+      title: "Potential Improvements to Operational Efficiency with ShovelMetrics™ PLM",
+      description: "Analysis and recommendations for operational efficiency improvements using ShovelMetrics™ Performance Lifecycle Management",
+      tech: ["Python", "Data Analysis", "Performance Analytics"],
       status: "Live",
       liveUrl: null,
       githubUrl: null,
@@ -122,7 +140,7 @@ const Projects = () => {
                 ) : (
                   <button className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg text-white text-sm font-semibold opacity-50 cursor-not-allowed">
                     <ExternalLink size={16} />
-                    View Demo
+                    Demo Not Available
                   </button>
                 )}
                 
