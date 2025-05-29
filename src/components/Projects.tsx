@@ -1,4 +1,3 @@
-
 import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
@@ -65,13 +64,6 @@ const Projects = () => {
       liveUrl: null,
       githubUrl: null,
       sourceCodeText: "Confidential"
-    },
-    {
-      title: "Network Monitoring Tool",
-      description: "Automated system for monitoring network performance and alerts",
-      tech: ["Python", "Network APIs", "Database"],
-      status: "Coming Soon",
-      sourceCodeText: "Source Code"
     },
     {
       title: "Predictive Maintenance Model",
