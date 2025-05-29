@@ -9,31 +9,63 @@ const Projects = () => {
       tech: ["React", "JavaScript", "HTML", "CSS", "Tailwind"],
       status: "Live",
       liveUrl: "https://theundivideproject.org/",
-      githubUrl: null
+      githubUrl: null,
+      sourceCodeText: "Source Code Unavailable"
+    },
+    {
+      title: "HRAI Member Survey Analysis",
+      description: "Interactive data analysis dashboard for HRAI member survey insights and visualizations",
+      tech: ["Python", "Streamlit", "Pandas", "Data Analysis"],
+      status: "Live",
+      liveUrl: "https://hrai-member-survey-analysis-efx8m8mchyg8w725872cd5.streamlit.app/",
+      githubUrl: null,
+      sourceCodeText: "Confidential"
+    },
+    {
+      title: "HRHP Fundraising Strategy Visualizations",
+      description: "Strategic fundraising dashboard with comprehensive data visualizations and insights",
+      tech: ["Python", "Streamlit", "Data Visualization"],
+      status: "Live",
+      liveUrl: "https://hrhp-fundraising-strategy-visualizations-7bd4appydu968phuahne6.streamlit.app/",
+      githubUrl: null,
+      sourceCodeText: "Confidential"
+    },
+    {
+      title: "Spanish Translation Tool",
+      description: "Streamlit-based tool for quick Spanish translations with formatting preservation",
+      tech: ["Python", "Streamlit", "Google Translate API"],
+      status: "Live",
+      liveUrl: "https://spanish.streamlit.app/",
+      githubUrl: "https://github.com/ValentinaAkpan/Spanish",
+      sourceCodeText: "Source Code"
     },
     {
       title: "Data Analysis Dashboard",
       description: "Interactive dashboard for operational data visualization and insights",
       tech: ["Python", "Pandas", "Plotly", "Streamlit"],
-      status: "Coming Soon"
+      status: "Coming Soon",
+      sourceCodeText: "Source Code"
     },
     {
       title: "Network Monitoring Tool",
       description: "Automated system for monitoring network performance and alerts",
       tech: ["Python", "Network APIs", "Database"],
-      status: "Coming Soon"
+      status: "Coming Soon",
+      sourceCodeText: "Source Code"
     },
     {
       title: "Predictive Maintenance Model",
       description: "ML model for predicting equipment failures in industrial settings",
       tech: ["Python", "Scikit-learn", "NumPy", "Matplotlib"],
-      status: "Coming Soon"
+      status: "Coming Soon",
+      sourceCodeText: "Source Code"
     },
     {
       title: "Automation Scripts",
       description: "Collection of scripts for automating routine technical tasks",
       tech: ["Python", "Bash", "PowerShell"],
-      status: "Coming Soon"
+      status: "Coming Soon",
+      sourceCodeText: "Source Code"
     }
   ];
 
@@ -100,12 +132,12 @@ const Projects = () => {
                     className="flex items-center gap-2 px-4 py-2 border border-gray-600 rounded-lg text-gray-300 text-sm font-semibold hover:border-blue-400 hover:text-white transition-colors duration-300"
                   >
                     <Github size={16} />
-                    Source Code
+                    {project.sourceCodeText}
                   </a>
                 ) : (
                   <button className="flex items-center gap-2 px-4 py-2 border border-gray-600 rounded-lg text-gray-500 text-sm font-semibold opacity-50 cursor-not-allowed">
                     <Github size={16} />
-                    {project.title === "The Undivide Project" ? "Source Code Unavailable" : "Source Code"}
+                    {project.sourceCodeText}
                   </button>
                 )}
               </div>
