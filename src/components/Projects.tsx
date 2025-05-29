@@ -1,3 +1,4 @@
+
 import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
@@ -8,6 +9,15 @@ const Projects = () => {
       tech: ["React", "JavaScript", "HTML", "CSS", "Tailwind"],
       status: "Live",
       liveUrl: "https://theundivideproject.org/",
+      githubUrl: null,
+      sourceCodeText: "Source Code Unavailable"
+    },
+    {
+      title: "GEV Analysis",
+      description: "Statistical analysis tool for Generalized Extreme Value distributions with interactive visualizations",
+      tech: ["Python", "Streamlit", "Statistics", "Data Visualization"],
+      status: "Live",
+      liveUrl: "https://gevanalysis.streamlit.app/",
       githubUrl: null,
       sourceCodeText: "Source Code Unavailable"
     },
