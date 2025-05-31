@@ -100,8 +100,17 @@ const Projects = () => {
       sourceCodeText: "Source Code"
     },
     {
+      title: "File Backup Automation Tool",
+      description: "Streamlit-based file backup automation tool for secure data management",
+      tech: ["Python", "Streamlit", "File Management", "Automation"],
+      status: "Live",
+      liveUrl: "https://filebackup.streamlit.app/",
+      githubUrl: null,
+      sourceCodeText: "Source Code"
+    },
+    {
       title: "Automation Scripts",
-      description: "Collection of scripts for automating routine technical tasks",
+      description: "Collection of scripts for automating routine technical tasks - more coming soon",
       tech: ["Python", "Bash", "PowerShell"],
       status: "Coming Soon",
       sourceCodeText: "Source Code"
