@@ -21,6 +21,15 @@ const Projects = () => {
       sourceCodeText: "Source Code Unavailable"
     },
     {
+      title: "Monica C Sanders",
+      description: "Professional website showcasing expertise and services",
+      tech: ["Web Development", "HTML", "CSS", "JavaScript"],
+      status: "Live",
+      liveUrl: "https://monicacsanders.com/",
+      githubUrl: null,
+      sourceCodeText: "Source Code Unavailable"
+    },
+    {
       title: "Bonneterre Consulting",
       description: "Professional consulting website showcasing services and expertise",
       tech: ["Web Development", "HTML", "CSS", "JavaScript"],
