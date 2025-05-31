@@ -1,3 +1,4 @@
+
 import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
@@ -107,6 +108,24 @@ const Projects = () => {
       liveUrl: "https://filebackup.streamlit.app/",
       githubUrl: "https://github.com/ValentinaAkpan/Filebackup",
       sourceCodeText: "Source Code"
+    },
+    {
+      title: "Folder Doc Creator",
+      description: "Streamlit tool for automatically generating folder documentation and structure overviews",
+      tech: ["Python", "Streamlit", "File Management", "Documentation", "Automation"],
+      status: "Live",
+      liveUrl: "https://folder-doc-creator.streamlit.app/",
+      githubUrl: null,
+      sourceCodeText: "Source Code Unavailable"
+    },
+    {
+      title: "Data Cleaner",
+      description: "Streamlit-based data cleaning and preprocessing tool for CSV files",
+      tech: ["Python", "Streamlit", "Pandas", "Data Processing", "Automation"],
+      status: "Live",
+      liveUrl: "https://datacleanerv.streamlit.app/",
+      githubUrl: null,
+      sourceCodeText: "Source Code Unavailable"
     },
     {
       title: "Automation Scripts",
