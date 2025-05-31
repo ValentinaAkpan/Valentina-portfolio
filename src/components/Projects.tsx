@@ -105,7 +105,7 @@ const Projects = () => {
       tech: ["Python", "Streamlit", "File Management", "Automation"],
       status: "Live",
       liveUrl: "https://filebackup.streamlit.app/",
-      githubUrl: null,
+      githubUrl: "https://github.com/ValentinaAkpan/Filebackup",
       sourceCodeText: "Source Code"
     },
     {
