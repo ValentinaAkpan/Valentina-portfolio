@@ -1,4 +1,3 @@
-
 const Experience = () => {
   const experiences = [
     {
@@ -62,7 +61,7 @@ const Experience = () => {
       ]
     },
     {
-      role: "Data Analyst & Admin - Multiple Companies",
+      role: "Data Analyst, Web Developer & Administrative Assistant - Multiple Companies",
       company: "Virtual Gurus",
       timeFrame: "Mar 2022 – Feb 2024",
       location: "Remote",
