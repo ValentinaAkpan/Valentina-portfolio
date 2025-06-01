@@ -4,7 +4,7 @@ const Projects = () => {
   const projects = [
     {
       title: "The Undivide Project",
-      description: "A comprehensive web platform built to bridge divides and create meaningful connections",
+      description: "A climate-focused platform dedicated to bridging the digital divide and creating equitable access to technology and environmental solutions",
       tech: ["React", "JavaScript", "HTML", "CSS", "Tailwind"],
       status: "Live",
       liveUrl: "https://theundivideproject.org/",
