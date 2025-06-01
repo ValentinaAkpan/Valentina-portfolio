@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl sm:text-2xl text-gray-300 mb-8 leading-relaxed">
-            Technical Support Specialist & Data Analyst
+            Technical Support Specialist, Data Analyst & Admin
             <br className="hidden sm:block" />
             Delivering innovative solutions and exceptional technical expertise
           </p>
