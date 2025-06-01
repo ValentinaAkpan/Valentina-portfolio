@@ -1,3 +1,4 @@
+
 const Experience = () => {
   const experiences = [
     {
@@ -79,7 +80,7 @@ const Experience = () => {
         "Ecologic Energy Advisors - Energy efficiency consulting firm: Technical Customer Service Representative",
         "Heckya Events Inc - Event planning and management company: E-commerce Assistant",
         "Families Canada - National family advocacy organization: Web Developer",
-        "Ogden Surgical-Medical Society - Medical professional association: Administrative Assistant",
+        "Ogden Surgical-Medical Society - Medical professional association: Web Developer",
         "K3 Fitness LLC - Fitness training and wellness services: Administrative Assistant"
       ]
     },
