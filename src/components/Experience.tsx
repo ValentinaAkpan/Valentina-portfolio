@@ -1,3 +1,4 @@
+
 const Experience = () => {
   const experiences = [
     {
@@ -70,7 +71,7 @@ const Experience = () => {
         "CUTRIC - Administrative Assistant",
         "The Undivide Project - Data Analyst/Executive Assistant", 
         "HRAI - Administrative Assistant/Website Manager",
-        "Supur Communications - Executive Assistant/Personal Assistant",
+        "Spur Communications - Executive Assistant/Personal Assistant",
         "Arinka Services Inc. - Administrative Assistant",
         "Selling Circus - Administrative Assistant/Automation Expert", 
         "Advocates for Reproductive Education (WeARE) - Administrative Assistant/Data Analyst",
