@@ -1,5 +1,3 @@
-
-
 const Experience = () => {
   const experiences = [
     {
@@ -9,11 +7,11 @@ const Experience = () => {
       location: "Vancouver, Hybrid",
       type: "Full-time",
       responsibilities: [
-        "Monitoring systems and resolving technical issues involving IP networking, routing, and synchronization",
-        "Troubleshooting across Windows, Linux, and proprietary software",
-        "Using Jira and Salesforce to manage reports and track performance",
-        "Working with remote servers, collecting data from mine sites",
-        "Collaborating with global teams on R&D and system improvements"
+        "Monitor systems and fix technical issues with IP networking and routing",
+        "Troubleshoot problems across Windows, Linux, and company software",
+        "Use Jira and Salesforce to track tickets and performance metrics",
+        "Work with remote servers and collect data from mining sites",
+        "Collaborate with teams worldwide on R&D projects"
       ]
     },
     {
@@ -23,12 +21,12 @@ const Experience = () => {
       location: "Remote",
       type: "Freelance",
       responsibilities: [
-        "Supported data infrastructure and reporting workflows aligned with UN-related program goals and compliance standards",
-        "Automated data collection, transformation, and reporting tasks using Python and spreadsheet-based tools to reduce manual workload",
-        "Conducted quality assurance checks on incoming datasets, ensuring accuracy, completeness, and consistency before analysis or distribution",
-        "Built custom scripts to streamline recurring administrative and data-processing tasks, improving efficiency and reducing errors",
-        "Assisted project teams with setting up digital tools and technical systems for collaboration, remote communication, and information tracking",
-        "Created internal documentation and training resources to support non-technical staff in using digital systems and handling data securely"
+        "Support data systems for UN-related programs and compliance requirements",
+        "Automate data collection and reporting with Python to reduce manual work",
+        "Check data quality to make sure everything is accurate before analysis",
+        "Write scripts to streamline repetitive tasks and reduce errors",
+        "Help teams set up digital tools for collaboration and remote work",
+        "Create documentation and training materials for non-technical staff"
       ]
     },
     {
@@ -38,12 +36,12 @@ const Experience = () => {
       location: "Remote",
       type: "Contract",
       responsibilities: [
-        "Analyzed operational data using Python, Pandas, and NumPy to identify trends and performance metrics",
-        "Created predictive models and visualizations using Plotly and Matplotlib to support business decision-making",
-        "Built automated data pipelines to integrate multiple data sources and streamline reporting processes",
-        "Developed custom dashboards and reports for stakeholders to track key performance indicators",
-        "Collaborated with cross-functional teams to understand data requirements and deliver actionable insights",
-        "Implemented data quality checks and validation procedures to ensure accuracy and reliability of analysis"
+        "Analyze business data using Python, Pandas, and NumPy to find trends",
+        "Create charts and predictive models with Plotly and Matplotlib",
+        "Build automated pipelines to connect different data sources",
+        "Make dashboards and reports to track key metrics for stakeholders",
+        "Work with different teams to understand what data they need",
+        "Set up data validation to ensure analysis accuracy"
       ]
     },
     {
@@ -53,13 +51,13 @@ const Experience = () => {
       location: "Vancouver",
       type: "Full-time",
       responsibilities: [
-        "Provided comprehensive administrative support across teams, ensuring smooth daily operations and effective communication",
-        "Led efforts to automate repetitive office tasks using tools like Excel macros, Google Sheets scripts, and online forms, saving time and reducing manual errors",
-        "Streamlined scheduling, reporting, and document management processes by introducing digital workflows and shared systems",
-        "Coordinated internal meetings, event logistics, and external communications with a strong focus on detail and follow-through",
-        "Created and maintained organized digital filing systems, improving data accessibility and team productivity",
-        "Supported cross-functional collaboration by training colleagues on new tools and documenting updated procedures",
-        "Acted as a point of contact for internal operations, assisting with onboarding, supply tracking, and process improvements"
+        "Handle admin work across teams to keep daily operations running smoothly",
+        "Automate repetitive tasks using Excel macros and Google Sheets to save time",
+        "Improve scheduling, reporting, and document processes with digital workflows",
+        "Coordinate meetings, events, and communications with attention to detail",
+        "Organize digital filing systems to make data easier to find",
+        "Train colleagues on new tools and document updated procedures",
+        "Serve as main contact for internal operations and process improvements"
       ]
     },
     {
@@ -92,12 +90,12 @@ const Experience = () => {
       location: "Lagos",
       type: "Full-time",
       responsibilities: [
-        "Led a team of network engineers in field troubleshooting and rapid alarm response across multiple sites",
-        "Oversaw comprehensive network outage tracking and performance review processes to minimize downtime",
-        "Managed ticket resolution workflows and prioritized critical network issues for optimal service delivery",
-        "Coordinated with multiple departments to ensure efficient resource allocation and technical support",
-        "Developed and implemented standard operating procedures for network maintenance and emergency response",
-        "Mentored junior engineers and conducted training sessions on network troubleshooting techniques"
+        "Led a team of network engineers to troubleshoot issues and respond to alarms quickly",
+        "Track network outages and review performance to minimize downtime",
+        "Manage ticket workflows and prioritize critical network problems",
+        "Coordinate with different departments for resource allocation and support",
+        "Create standard procedures for network maintenance and emergency response",
+        "Mentor junior engineers and run training sessions on troubleshooting"
       ]
     },
     {
@@ -107,12 +105,12 @@ const Experience = () => {
       location: "Lagos",
       type: "Full-time",
       responsibilities: [
-        "Monitored 2G/3G network infrastructure and managed fault detection systems to ensure optimal network performance",
-        "Provided technical customer support and coordinated field service dispatch for network issues",
-        "Analyzed network performance metrics and generated reports for management and client stakeholders",
-        "Troubleshot complex network problems and implemented solutions to prevent recurring issues",
-        "Maintained network documentation and updated configuration management databases",
-        "Collaborated with vendors and third-party contractors to resolve hardware and software issues"
+        "Monitor 2G/3G networks and manage fault detection systems",
+        "Provide technical support and coordinate field service for network issues",
+        "Analyze network performance and create reports for management and clients",
+        "Troubleshoot complex network problems and implement solutions",
+        "Maintain network documentation and update configuration databases",
+        "Work with vendors and contractors to resolve hardware and software issues"
       ]
     },
     {
@@ -122,12 +120,12 @@ const Experience = () => {
       location: "Lagos",
       type: "Contract",
       responsibilities: [
-        "Provided comprehensive end-user technical support through multiple channels including chat, email, and phone",
-        "Resolved network connectivity issues and troubleshot hardware and software problems for clients",
-        "Maintained detailed documentation of support cases and developed knowledge base articles",
-        "Implemented customer satisfaction improvement initiatives that increased resolution rates",
-        "Trained new support staff on technical procedures and customer service best practices",
-        "Escalated complex technical issues to appropriate teams while maintaining client communication"
+        "Provide technical support through chat, email, and phone",
+        "Fix network connectivity issues and troubleshoot hardware/software problems",
+        "Document support cases and create knowledge base articles",
+        "Improve customer satisfaction and increase resolution rates",
+        "Train new support staff on procedures and customer service",
+        "Escalate complex issues while keeping clients informed"
       ]
     }
   ];
@@ -199,4 +197,3 @@ const Experience = () => {
 };
 
 export default Experience;
-
