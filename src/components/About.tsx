@@ -23,7 +23,7 @@ const About = () => {
             </p>
             
             <p className="text-lg text-gray-300 leading-relaxed">
-              My background spans from hands-on network troubleshooting in telecom environments 
+              My background spans from hands-on network troubleshooting in telecom and mining environments 
               to building data pipelines and creating predictive models. I excel at solving 
               complex technical problems and thrive in both hybrid and remote work environments.
             </p>
