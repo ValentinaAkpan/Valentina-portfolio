@@ -69,18 +69,18 @@ const Experience = () => {
       responsibilities: [
         "CUTRIC - Administrative Assistant",
         "The Undivide Project - Data Analyst/Executive Assistant", 
-        "HRAI - Admin/Website Manager",
+        "HRAI - Administrative Assistant/Website Manager",
         "Supur Communications - Executive Assistant/Personal Assistant",
-        "Arinka Services Inc. - Admin",
-        "Selling Circus - Admin/Automation Expert", 
-        "Advocates for Reproductive Education (WeARE) - Admin/Data Analyst",
-        "Resilient Renewables LLC - Admin",
-        "Tease Tea INC - Admin",
+        "Arinka Services Inc. - Administrative Assistant",
+        "Selling Circus - Administrative Assistant/Automation Expert", 
+        "Advocates for Reproductive Education (WeARE) - Administrative Assistant/Data Analyst",
+        "Resilient Renewables LLC - Administrative Assistant",
+        "Tease Tea INC - Administrative Assistant",
         "Ecologic Energy Advisors - Technical Customer Service Representative",
         "Heckya Events Inc - E-commerce Assistant",
         "Families Canada - Web Developer",
-        "Ogden Surgical-Medical Society - Admin",
-        "K3 Fitness LLC - Admin"
+        "Ogden Surgical-Medical Society - Administrative Assistant",
+        "K3 Fitness LLC - Administrative Assistant"
       ]
     },
     {
