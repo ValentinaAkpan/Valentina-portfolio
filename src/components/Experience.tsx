@@ -1,3 +1,4 @@
+
 const Experience = () => {
   const experiences = [
     {
@@ -72,7 +73,7 @@ const Experience = () => {
         "HRAI - Heating, Refrigeration and Air Conditioning Institute of Canada: Administrative Assistant/Website Manager",
         "Spur Communications - Strategic communications and public affairs agency: Executive Assistant/Personal Assistant",
         "Arinka Services Inc. - Business consulting and administrative services: Administrative Assistant",
-        "Selling Circus - E-commerce and digital marketing agency: Administrative Assistant/Automation Expert", 
+        "Selling Circus - Digital Marketing & Funnel Strategy Agency: Administrative Assistant/Automation Expert", 
         "Advocates for Reproductive Education (WeARE) - Reproductive health advocacy organization: Administrative Assistant/Data Analyst",
         "Resilient Renewables LLC - Clean energy consulting and project development: Administrative Assistant",
         "Tease Tea INC - Premium tea retailer and wellness brand: Administrative Assistant",
