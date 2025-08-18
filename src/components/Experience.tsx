@@ -2,20 +2,6 @@
 const Experience = () => {
   const experiences = [
     {
-      role: "Technical Support Specialist",
-      company: "Weir Motion Metrics",
-      timeFrame: "Jun 2024 – Present",
-      location: "Vancouver, Hybrid",
-      type: "Full-time",
-      responsibilities: [
-        "Monitor systems and fix technical issues with IP networking and routing",
-        "Troubleshoot problems across Windows, Linux, and company software",
-        "Use Jira and Salesforce to track tickets and performance metrics",
-        "Work with remote servers and collect data from mining sites",
-        "Collaborate with teams worldwide on R&D projects"
-      ]
-    },
-    {
       role: "Technical Support & Data Analyst",
       company: "The Undivide Project",
       timeFrame: "May 2024 – Present",
