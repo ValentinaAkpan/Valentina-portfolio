@@ -2,51 +2,6 @@
 const Experience = () => {
   const experiences = [
     {
-      role: "Executive Assistant & Data Analyst",
-      company: "The Undivide Project",
-      timeFrame: "May 2024 – Present",
-      location: "Remote",
-      type: "Freelance",
-      responsibilities: [
-        "Support data systems for UN-related programs and compliance requirements",
-        "Automate data collection and reporting with Python to reduce manual work",
-        "Manage executive scheduling and coordinate international team communications",
-        "Create documentation and training materials for stakeholders",
-        "Ensure data quality and accuracy for organizational decision-making",
-        "Streamline administrative processes using digital collaboration tools"
-      ]
-    },
-    {
-      role: "Data Analyst",
-      company: "Contract",
-      timeFrame: "Jan 2024 – Oct 2024",
-      location: "Remote",
-      type: "Contract",
-      responsibilities: [
-        "Analyze business data using Python, Pandas, and NumPy to identify trends",
-        "Create interactive dashboards and predictive models with Plotly and Matplotlib",
-        "Build automated reporting pipelines to connect different data sources",
-        "Present insights and recommendations to executives and stakeholders",
-        "Collaborate with cross-functional teams to understand analytical requirements",
-        "Implement data validation processes to ensure reporting accuracy"
-      ]
-    },
-    {
-      role: "Administrative Assistant",
-      company: "On-site",
-      timeFrame: "Jul 2023 – Jun 2024",
-      location: "Vancouver",
-      type: "Full-time",
-      responsibilities: [
-        "Manage daily operations and administrative tasks across multiple departments",
-        "Automate repetitive processes using Excel macros and Google Workspace",
-        "Coordinate executive calendars, meetings, and corporate events",
-        "Develop and maintain digital filing systems for improved data accessibility",
-        "Create process documentation and train staff on new administrative procedures",
-        "Serve as primary liaison for internal communications and operational improvements"
-      ]
-    },
-    {
       role: "Executive Assistant, Data Analyst & Web Developer - Multiple Organizations",
       company: "Virtual Gurus",
       timeFrame: "Mar 2022 – Feb 2024",
@@ -68,51 +23,6 @@ const Experience = () => {
         "Families Canada - National family advocacy organization (Canada): Web Developer",
         "Ogden Surgical-Medical Society - Medical professional association (US): Web Developer",
         "K3 Fitness LLC - Fitness training and wellness services (US): Administrative Assistant"
-      ]
-    },
-    {
-      role: "Operations Team Lead",
-      company: "Huawei",
-      timeFrame: "Sep 2019 – Mar 2020",
-      location: "Lagos",
-      type: "Full-time",
-      responsibilities: [
-        "Led cross-functional teams to resolve operational issues and respond to client requests",
-        "Manage project workflows and prioritize critical business operations",
-        "Coordinate with multiple departments for resource allocation and strategic planning",
-        "Develop standard operating procedures for business continuity and efficiency",
-        "Train and mentor junior staff on operational excellence and customer service",
-        "Analyze performance metrics and create reports for senior management"
-      ]
-    },
-    {
-      role: "Operations Support Specialist",
-      company: "Huawei",
-      timeFrame: "Nov 2017 – Aug 2019",
-      location: "Lagos",
-      type: "Full-time",
-      responsibilities: [
-        "Monitor business operations and manage client service delivery systems",
-        "Provide administrative support and coordinate service teams for client projects",
-        "Analyze operational performance and create comprehensive reports for leadership",
-        "Implement process improvements and maintain operational documentation",
-        "Collaborate with vendors and partners to ensure service quality standards",
-        "Support client relationship management and contract administration"
-      ]
-    },
-    {
-      role: "Customer Support Specialist",
-      company: "Contract",
-      timeFrame: "Oct 2016 – Oct 2017",
-      location: "Lagos",
-      type: "Contract",
-      responsibilities: [
-        "Provide exceptional customer service through multiple communication channels",
-        "Resolve client inquiries and coordinate with internal teams for solutions",
-        "Maintain detailed case documentation and develop knowledge base resources",
-        "Analyze customer feedback to improve service delivery and satisfaction rates",
-        "Train new customer service representatives on procedures and best practices",
-        "Escalate complex cases while maintaining clear client communication"
       ]
     }
   ];
