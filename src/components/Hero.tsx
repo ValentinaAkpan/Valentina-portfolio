@@ -20,9 +20,9 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl sm:text-2xl text-gray-300 mb-8 leading-relaxed">
-            Technical Support Specialist & Data Analyst
+            Executive Assistant & Data Analyst
             <br />
-            Delivering innovative solutions and exceptional technical expertise
+            Delivering innovative administrative solutions and exceptional analytical expertise
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
