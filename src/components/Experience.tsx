@@ -4,7 +4,7 @@ const Experience = () => {
     {
       role: "Executive Assistant, Data Analyst & Web Developer - Multiple Organizations",
       company: "Virtual Gurus",
-      timeFrame: "Mar 2022 – Feb 2024",
+      timeFrame: "Mar 2022 – Present",
       location: "Remote",
       type: "Freelance",
       responsibilities: [

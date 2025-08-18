@@ -30,6 +30,15 @@ const Projects = () => {
       sourceCodeText: "Source Code Unavailable"
     },
     {
+      title: "InHarmony Complementary Health",
+      description: "Professional holistic health and wellness website featuring comprehensive services and practitioner information",
+      tech: ["Web Development", "HTML", "CSS", "JavaScript"],
+      status: "Live",
+      liveUrl: "https://innharmonycmh.ca/",
+      githubUrl: null,
+      sourceCodeText: "Source Code Unavailable"
+    },
+    {
       title: "Bonneterre Consulting",
       description: "Professional consulting website showcasing services and expertise",
       tech: ["Web Development", "HTML", "CSS", "JavaScript"],
