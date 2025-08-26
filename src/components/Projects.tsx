@@ -127,6 +127,15 @@ const Projects = () => {
       sourceCodeText: "Source Code Unavailable"
     },
     {
+      title: "Disaster Dashboard",
+      description: "Interactive disaster monitoring and analysis dashboard with real-time data visualization and risk assessment capabilities",
+      tech: ["Python", "Streamlit", "Data Visualization", "Risk Analysis", "Emergency Management"],
+      status: "Live",
+      liveUrl: "https://disasterdashboard-rfgwsa6oqyh86tkm7h3izg.streamlit.app/",
+      githubUrl: null,
+      sourceCodeText: "Source Code Unavailable"
+    },
+    {
       title: "Automation Scripts",
       description: "Collection of scripts for automating routine technical tasks - more coming soon",
       tech: ["Python", "Bash", "PowerShell"],
