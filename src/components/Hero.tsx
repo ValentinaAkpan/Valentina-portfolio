@@ -3,16 +3,12 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background Animation */}
-      <div className="absolute inset-0 bg-gradient-to-br from-background via-primary/5 to-accent/10"></div>
-      <div className="absolute inset-0">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
-      </div>
+      <div className="absolute inset-0 bg-background"></div>
       
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="animate-fade-in">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+            <span className="text-primary">
               Valentina
             </span>
             <br />
@@ -30,7 +26,7 @@ const Hero = () => {
               href="https://rellatechvirtualassistantservices.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-3 bg-gradient-to-r from-primary to-accent rounded-lg text-primary-foreground font-semibold hover:opacity-90 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-primary/50"
+              className="px-8 py-3 bg-primary rounded-lg text-primary-foreground font-semibold hover:bg-primary/90 transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               Visit My Website
             </a>
