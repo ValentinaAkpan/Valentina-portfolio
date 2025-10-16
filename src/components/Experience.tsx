@@ -12,6 +12,7 @@ const Experience = () => {
         "CUTRIC - Canadian Urban Transit Research & Innovation Consortium (Canada): Administrative Assistant",
         "The Undivide Project - Non-profit promoting social cohesion and democracy (US): Data Analyst/Executive Assistant", 
         "HRAI - Heating, Refrigeration and Air Conditioning Institute of Canada (Canada): Administrative Assistant/Website Manager",
+        "Stratcom - Strategic communications and public affairs agency (Canada): Administrative Assistant",
         "Spur Communications - Strategic communications and public affairs agency (Canada): Executive Assistant",
         "Arinka Services Inc. - Business consulting and administrative services (Canada): Administrative Assistant",
         "Selling Circus - Digital Marketing & Funnel Strategy Agency (Canada): Administrative Assistant/Automation Specialist", 
