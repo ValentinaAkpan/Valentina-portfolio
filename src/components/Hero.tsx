@@ -27,8 +27,16 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
+              href="https://rellatechvirtualassistantservices.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg text-white font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-blue-500/50"
+            >
+              Visit My Website
+            </a>
+            <a
               href="#experience"
-              className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg text-white font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105"
+              className="px-8 py-3 border-2 border-gray-600 rounded-lg text-white font-semibold hover:border-white hover:bg-white hover:text-gray-900 transition-all duration-300"
             >
               View Experience
             </a>

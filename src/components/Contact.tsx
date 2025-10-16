@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github, Globe } from "lucide-react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -149,6 +149,19 @@ const Contact = () => {
                 <div>
                   <p className="text-white font-semibold">GitHub</p>
                   <p className="text-gray-300">View my code</p>
+                </div>
+              </a>
+              
+              <a
+                href="https://rellatechvirtualassistantservices.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center p-4 bg-gray-700/60 rounded-lg border border-gray-500 hover:border-blue-400 transition-colors duration-300 group"
+              >
+                <Globe className="text-blue-400 mr-4 group-hover:scale-110 transition-transform duration-300" size={24} />
+                <div>
+                  <p className="text-white font-semibold">Website</p>
+                  <p className="text-gray-300">rellatechvirtualassistantservices.com</p>
                 </div>
               </a>
             </div>
