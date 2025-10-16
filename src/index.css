@@ -6,88 +6,88 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 340 15% 25%;
+    --foreground: 215 25% 20%;
 
-    --card: 340 40% 99%;
-    --card-foreground: 340 15% 25%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 20%;
 
-    --popover: 340 40% 99%;
-    --popover-foreground: 340 15% 25%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 20%;
 
-    --primary: 340 55% 65%;
+    --primary: 210 80% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 340 30% 95%;
-    --secondary-foreground: 340 15% 30%;
+    --secondary: 210 25% 95%;
+    --secondary-foreground: 215 25% 20%;
 
-    --muted: 340 25% 96%;
-    --muted-foreground: 340 10% 45%;
+    --muted: 210 20% 96%;
+    --muted-foreground: 215 15% 45%;
 
-    --accent: 320 40% 75%;
-    --accent-foreground: 340 15% 25%;
+    --accent: 185 70% 50%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 340 20% 90%;
-    --input: 340 20% 92%;
-    --ring: 340 55% 65%;
+    --border: 210 20% 90%;
+    --input: 210 20% 92%;
+    --ring: 210 80% 50%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 340 35% 98%;
+    --sidebar-background: 210 25% 98%;
 
-    --sidebar-foreground: 340 15% 30%;
+    --sidebar-foreground: 215 25% 20%;
 
-    --sidebar-primary: 340 55% 65%;
+    --sidebar-primary: 210 80% 50%;
 
     --sidebar-primary-foreground: 0 0% 100%;
 
-    --sidebar-accent: 340 30% 95%;
+    --sidebar-accent: 210 25% 95%;
 
-    --sidebar-accent-foreground: 340 15% 30%;
+    --sidebar-accent-foreground: 215 25% 20%;
 
-    --sidebar-border: 340 20% 92%;
+    --sidebar-border: 210 20% 92%;
 
-    --sidebar-ring: 340 55% 65%;
+    --sidebar-ring: 210 80% 50%;
   }
 
   .dark {
-    --background: 340 20% 10%;
-    --foreground: 340 15% 90%;
+    --background: 215 30% 8%;
+    --foreground: 210 20% 95%;
 
-    --card: 340 20% 14%;
-    --card-foreground: 340 15% 90%;
+    --card: 215 25% 12%;
+    --card-foreground: 210 20% 95%;
 
-    --popover: 340 20% 14%;
-    --popover-foreground: 340 15% 90%;
+    --popover: 215 25% 12%;
+    --popover-foreground: 210 20% 95%;
 
-    --primary: 340 50% 70%;
-    --primary-foreground: 340 20% 10%;
+    --primary: 210 75% 60%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 340 15% 20%;
-    --secondary-foreground: 340 15% 90%;
+    --secondary: 215 20% 18%;
+    --secondary-foreground: 210 20% 95%;
 
-    --muted: 340 15% 20%;
-    --muted-foreground: 340 10% 60%;
+    --muted: 215 20% 18%;
+    --muted-foreground: 215 15% 60%;
 
-    --accent: 320 35% 65%;
-    --accent-foreground: 340 15% 90%;
+    --accent: 185 65% 50%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 340 15% 22%;
-    --input: 340 15% 22%;
-    --ring: 340 50% 70%;
-    --sidebar-background: 340 20% 12%;
-    --sidebar-foreground: 340 15% 85%;
-    --sidebar-primary: 340 50% 70%;
-    --sidebar-primary-foreground: 340 20% 10%;
-    --sidebar-accent: 340 15% 20%;
-    --sidebar-accent-foreground: 340 15% 85%;
-    --sidebar-border: 340 15% 20%;
-    --sidebar-ring: 340 50% 70%;
+    --border: 215 20% 22%;
+    --input: 215 20% 22%;
+    --ring: 210 75% 60%;
+    --sidebar-background: 215 30% 10%;
+    --sidebar-foreground: 210 20% 90%;
+    --sidebar-primary: 210 75% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 215 20% 18%;
+    --sidebar-accent-foreground: 210 20% 90%;
+    --sidebar-border: 215 20% 20%;
+    --sidebar-ring: 210 75% 60%;
   }
 }
 
@@ -128,14 +128,14 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(340 15% 22%);
+  background: hsl(215 20% 20%);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, hsl(340 50% 70%), hsl(320 35% 65%));
+  background: linear-gradient(180deg, hsl(210 75% 60%), hsl(185 65% 50%));
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, hsl(340 50% 65%), hsl(320 35% 60%));
+  background: linear-gradient(180deg, hsl(210 75% 55%), hsl(185 65% 45%));
 }

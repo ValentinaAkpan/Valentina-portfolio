@@ -20,6 +20,7 @@ const Navigation = () => {
     { href: "#achievements", label: "Achievements" },
     { href: "#projects", label: "Projects" },
     { href: "#landing-pages", label: "Landing Pages" },
+    { href: "/skillcat", label: "SkillCat Training" },
     { href: "#contact", label: "Contact" },
   ];
 
